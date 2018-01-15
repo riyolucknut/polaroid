@@ -76,8 +76,8 @@ selfMessage ="""
 ╠➩〘Getvid @〙
 ╠➩〘Friendlist〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💠 By : Anon 💠
+║    〽️ line.me/ti/p/~dmD16paDrn 〽️
 ╚═════════════════════════
 """
 
@@ -98,8 +98,8 @@ botMessage ="""
 ╠➩〘@bye (Usir Kapten)〙
 ╠➩〘Bye all (Usir Semua)〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💠 By : Anon 💠
+║    〽️ line.me/ti/p/~dmD16paDrn 〽️
 ╚═════════════════════════
 """
 
@@ -140,8 +140,8 @@ mediaMessage ="""
 ╠➩〘Id@th Text (Translate ID Ke TH〙
 ╠➩〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💠 By : Anon 💠
+║    〽️ line.me/ti/p/~dmD16paDrn. 〽️
 ╚═════════════════════════
 """
 
@@ -174,11 +174,11 @@ groupMessage ="""
 ╠➩〘Getgroup image〙
 ╠➩〘Urlgroup Image〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💠 By : Anon 💠
+║    〽️ line.me/ti/p/~dmD16paDrn 〽️
 ╚═════════════════════════
 """
-tjia="u14f64e139a3817afaabe27d237afb36b"
+anon="u21a6c9ed9087408cabab8c0bfbb28702"
 
 setMessage ="""
 ╔═════════════════════════
@@ -191,8 +191,8 @@ setMessage ="""
 ╠➩〘Contact on/off〙
 ╠➩〘Simisimi on/off〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💠 By : Anon 💠
+║    〽️ line.me/ti/p/~dmD16paDrn 〽️
 ╚═════════════════════════
 """
 
@@ -218,8 +218,8 @@ creatorMessage ="""
 ╠➩〘Bot restart〙
 ╠➩〘Turn off〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💠 By : Anon 💠
+║    〽️ line.me/ti/p/~dmD16paDrn 〽️
 ╚═════════════════════════
 """
 
@@ -259,8 +259,8 @@ adminMessage ="""
 ╠➩〘Leave on/off〙
 ╠➩〘All join / (TC1/2/3/4 Join)〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💠 By : Anon 💠
+║    〽️ line.me/ti/p/~dmD16paDrn 〽️
 ╚═════════════════════════
 """
 
@@ -283,8 +283,8 @@ helpMessage ="""
 ╠➩〘Speed test〙
 ╠➩〘Status〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💠 By : Anon 💠
+║    〽️ line.me/ti/p/~dmD16paDrn 〽️
 ╚═════════════════════════
 """
 
@@ -299,8 +299,8 @@ protectMessage ="""
 ╠➩〘Ghost on/off〙
 ╠➩〘Invitepro on/off〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💠 By : Anon 💠
+║    〽️ line.me/ti/p/~dmD16paDrn 〽️
 ╚═════════════════════════
 """
 
@@ -313,8 +313,8 @@ Cmid = kc.getProfile().mid
 Dmid = kr.getProfile().mid
 Emid = km.getProfile().mid
 Bots=[mid,Amid,Bmid,Cmid,Dmid,Emid]
-Creator=["u14f64e139a3817afaabe27d237afb36b"]
-admin=["u14f64e139a3817afaabe27d237afb36b","u23ad5ddec0dd0523f9caffad673d693c","u8b2bb5214c1afc77d06901a535c23e30","u57a54b914085fea6f04c19f6fe589057","u94fb89525397a12a24df3642a7335fe7","u3a43893bf65289be03f9fd3a85dab2a7","u787d28e13bd4f94cdca5457cd90efaf4","u86304883a6fa105778bfdf13f467eaf0"]
+Creator=["u21a6c9ed9087408cabab8c0bfbb28702"]
+admin=["u21a6c9ed9087408cabab8c0bfbb28702"]
 
 contact = cl.getProfile()
 backup1 = cl.getProfile()
@@ -1339,7 +1339,7 @@ def bot(op):
  
             elif msg.text in ["Creator","Owner"]:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': tjia}
+                msg.contentMetadata = {'mid': anon}
                 cl.sendMessage(msg)
 		cl.sendText(msg.to,"Itu Majikan Kami (^_^)")
 		
@@ -1671,7 +1671,7 @@ def bot(op):
 			else:
 			    pass
 		else:
-		    cl.sendText(msg.to,"Khusus Nadya")
+		    cl.sendText(msg.to,"Khusus Anon")
  
 	    elif "Leave all group" == msg.text:
 		gid = cl.getGroupIdsJoined()
@@ -1685,7 +1685,7 @@ def bot(op):
 			kr.leaveGroup(i)
 		    cl.sendText(msg.to,"Success Leave All Group")
 		else:
-		    cl.sendText(msg.to,"Khusus Nadya")
+		    cl.sendText(msg.to,"Khusus Anon")
 		   
 
             elif "Pict group: " in msg.text:
@@ -2695,7 +2695,7 @@ def bot(op):
                 random.choice(KAC).inviteIntoGroup(msg.to,[midd])
 
             elif "Invite creator" in msg.text:
-                midd = "u14f64e139a3817afaabe27d237afb36b"
+                midd = "u21a6c9ed9087408cabab8c0bfbb28702"
                 random.choice(KAC).inviteIntoGroup(msg.to,[midd])
 
             elif msg.text in ["Welcome","welcome","Welkam","welkam","Wc","wc"]:
@@ -3115,7 +3115,7 @@ def bot(op):
             elif 'Crash' in msg.text:
               if msg.from_ in Creator:
                 msg.contentType = 13
-                msg.contentMetadata = {'mid': "NADYA,'"}
+                msg.contentMetadata = {'mid': "ANON,'"}
                 cl.sendMessage(msg)
 
  
