@@ -8,7 +8,7 @@ finish()
 trap finish SIGINT
 
 while (( running )); do
-    python polaroid.py
+    python Chucky.py
     echo "Restarting server on crash.."
     sleep 2
 done
